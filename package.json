@@ -1,0 +1,29 @@
+{
+  "name": "cumberland-cli",
+  "version": "1.0.0",
+  "description": "A command-line interface for use with cumberland-audit",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/**/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dnimmo/cumberland-cli.git"
+  },
+  "author": "David Nimmo <dnimmo@gmail.com>",
+  "license": "ISC",
+  "bin": {
+    "cumberland": "./index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/dnimmo/cumberland-cli/issues"
+  },
+  "homepage": "https://github.com/dnimmo/cumberland-cli#readme",
+  "dependencies": {
+    "co": "^4.6.0",
+    "co-prompt": "^1.0.0",
+    "commander": "^2.9.0",
+    "cumberland-audit": "^1.0.0",
+    "mongodb": "^2.2.10"
+  }
+}
